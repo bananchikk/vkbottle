@@ -24,7 +24,7 @@ keyboard.add(Text("Кнопка 3", payload={"command": 3}))
 
 Например:
 
-```python
+``python
 await message.answer(message="Смотри сколько кнопок!!", keyboard=keyboard.get_json())
 ```
 
